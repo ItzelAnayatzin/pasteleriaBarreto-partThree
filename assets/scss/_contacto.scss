@@ -1,0 +1,33 @@
+/*This is the design for the page ''contacto''*/
+
+%firstSight{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: $normalFont;
+}
+
+.contactUs{
+    @extend %firstSight;
+    background-image: url(../img/backgroundContact.jpg);
+
+    h2{
+        font-weight: bolder;
+    }
+}
+
+.textInfo{
+    font-family: $normalFont;
+
+    p{
+        font-weight: bold;
+    }
+}
+
+.forCostumer{
+    font-family: $normalFont;
+
+    label{
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,30 @@
+/*This is the design for the footer (applies to all pages)*/
+@mixin fontDesign {
+    font-family: Montserrat;
+    font-weight: bolder;
+}
+
+.footer{
+    background-color: $purpleBackground;
+    h5{
+        font-family: $italicFont;
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    p{
+        font-size: 12px;
+        @include fontDesign;
+    }
+}
+
+.paymentLogo{
+    width: 200px;
+}
+
+.socialMedia{
+    a{
+        img{
+            width: 30px;
+        }
+    } 
+} 

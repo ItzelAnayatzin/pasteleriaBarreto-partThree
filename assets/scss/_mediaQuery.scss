@@ -1,0 +1,76 @@
+@media(min-width:768px) {
+    .mainTittle h1 {
+        font-size: 50px;
+    }
+
+    .mainTittle h2 {
+        font-size: 18px;
+    }
+
+    .footer h5 {
+        font-size: 25px;
+    }
+
+    .footer p {
+        font-size: 15px;
+    }
+}
+
+@media(min-width: 992px) {
+    .mainTittle h1{
+        font-size: 60px;
+    }
+
+    .mainTittle h2 {
+        font-size: 20px;
+    }
+
+    .navbar ul li{
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .footer h5 {
+        font-size: 30px;
+    }
+
+    .paymentLogo{
+        width: 300px;
+    }
+    
+
+       /*Features for ''nosotros''*/
+    .greetingImg{
+        height: 400px;
+    }
+
+    .greetingImg p{
+        font-size: 25px;
+    }
+
+    .biosOwners p{
+        font-size: 18px;
+    }
+
+       /*Features for ''nuestras delicias''*/
+    .ourProducts{
+        height: 400px;
+    }
+
+      /*Features for ''encuentranos''*/
+    .findUs{
+        height: 400px;
+    }
+
+    .basicInfo p{
+        font-size: 20px;
+    }
+
+      /*Features for ''encuentranos''*/
+    .contactUs{
+        height: 400px;
+    }
+    .textInfo p{
+        font-size: 19px;
+    }
+}

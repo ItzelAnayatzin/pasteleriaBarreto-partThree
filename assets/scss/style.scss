@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "_variables";
+@import "_header";
+@import "_nav";
+@import "_footer";
+@import "_index";
+@import "_nosotros";
+@import "_nuestrasDelicias";
+@import "_encuentranos";
+@import "_contacto";
+@import "_mediaQuery";

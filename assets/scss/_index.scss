@@ -1,0 +1,35 @@
+/*This is the design for the page ''index''*/
+
+$cardsInfo: (
+    font: Montserrat,
+    softHilight: bold,
+    textHilight: bolder,
+);
+
+
+.delivery{
+    font-family: map-get($cardsInfo, font);
+    h3{
+        font-weight: map-get($cardsInfo, softHilight);
+    }
+    p{
+        font-weight: map-get($cardsInfo, textHilight);
+    }
+    img{
+        width: 70px;
+    }
+}
+
+.shopOnline{
+    font-family: map-get($cardsInfo, font);
+    h3{
+        font-weight: map-get($cardsInfo, softHilight);
+    }
+    p{
+        font-weight: map-get($cardsInfo, textHilight);
+    }
+    img{
+        width: 50px;
+    }
+    
+}
